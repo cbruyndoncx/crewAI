@@ -186,9 +186,11 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - social
   - search
-
+  - pandoc:
+      combined: true
+  - social
+  
 extra:
   analytics:
     provider: google

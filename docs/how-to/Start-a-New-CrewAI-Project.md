@@ -23,20 +23,20 @@ This command will create a new project folder with the following structure:
 
 ```shell
 my_project/
-├── .gitignore
-├── pyproject.toml
-├── README.md
-└── src/
-    └── my_project/
-        ├── __init__.py
-        ├── main.py
-        ├── crew.py
-        ├── tools/
-        │   ├── custom_tool.py
-        │   └── __init__.py
-        └── config/
-            ├── agents.yaml
-            └── tasks.yaml
+|--- .gitignore
+|--- pyproject.toml
+|--- README.md
++-- src/
+    +-- my_project/
+        |--- __init__.py
+        |--- main.py
+        |--- crew.py
+        |--- tools/
+        |   |--- custom_tool.py
+        |   +-- __init__.py
+        +-- config/
+            |--- agents.yaml
+            +-- tasks.yaml
 ```
 
 You can now start developing your project by editing the files in the `src/my_project` folder. The `main.py` file is the entry point of your project, and the `crew.py` file is where you define your agents and tasks.

@@ -15,3 +15,5 @@ rc-tests/*
 *.pkl
 temp/*
 .vscode/*
+site/
+.cache/
